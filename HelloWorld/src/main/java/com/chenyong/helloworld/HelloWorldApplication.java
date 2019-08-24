@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloWorldApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloWorldApplication.class, args); //test git222
+		SpringApplication.run(HelloWorldApplication.class, args); //test git222 16:17
 	}
 }
