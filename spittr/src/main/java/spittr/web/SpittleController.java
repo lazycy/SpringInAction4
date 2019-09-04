@@ -42,7 +42,7 @@ public class SpittleController {
     return "spittle";
   }
 
-  /*@RequestMapping(method=RequestMethod.POST)
+/*  @RequestMapping(method=RequestMethod.POST)
   public String saveSpittle(SpittleForm form, Model model) throws Exception {
     spittleRepository.save(new Spittle(null, form.getMessage(), new Date(), 
         form.getLongitude(), form.getLatitude()));
