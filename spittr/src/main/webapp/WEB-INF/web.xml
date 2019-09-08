@@ -5,5 +5,5 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  
     http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd">  
       
-  <display-name>Archetype Created Web Application</display-name>  
+  <display-name>Spittr</display-name>  
 </web-app> 
