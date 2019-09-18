@@ -45,7 +45,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         new ReloadableResourceBundleMessageSource();
     messageSource.setBasename("/WEB-INF/messages");
     Properties properties = new Properties(); 
-    properties.setProperty("/WEB-INF/messages", "UTF_8"); 
+    properties.setProperty("/WEB-INF/messages", "UTF-8"); 
     messageSource.setFileEncodings(properties);
     messageSource.setCacheSeconds(10);
     return messageSource;
@@ -53,12 +53,10 @@ public class WebConfig extends WebMvcConfigurerAdapter {
   
   @Bean
   public MessageSource validationMessageSource() {
-	  ReloadableResourceBundleMessageSource  validationMessageSource = 
-        new ReloadableResourceBundleMessageSource ();
+    ResourceBundleMessageSource validationMessageSource = 
+        new ResourceBundleMessageSource();
     validationMessageSource.setBasename("classpath:ValidationMessages");
-    Properties properties = new Properties(); 
-    properties.setProperty("classpath:ValidationMessages", "UTF_8"); 
-    validationMessageSource.setFileEncodings(properties);
+    validationMessageSource.setDefaultEncoding("UTF-8");
     validationMessageSource.setCacheSeconds(10);
     return validationMessageSource;
   }

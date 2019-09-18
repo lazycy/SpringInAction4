@@ -6,5 +6,5 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  
     http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd">  
       
-  <display-name>Spittr</display-name>  
+  <display-name>Spittr-JSP</display-name>  
 </web-app> 

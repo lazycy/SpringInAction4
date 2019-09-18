@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.springinaction4</groupId>
-	<artifactId>spittr</artifactId>
+	<artifactId>Spittr-JSP</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spittr Maven Webapp</name>
@@ -76,7 +76,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>spittr</finalName>
+		<finalName>Spittr-JSP</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
